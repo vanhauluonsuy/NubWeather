@@ -1,0 +1,36 @@
+# Múi giờ để đồng bộ thời gian thực
+# Danh sách timezone: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Ho_Chi_Minh"
+
+# Đồng bộ thời gian tất cả world theo đồng hồ thực 24h
+# 06:00 thực = bình minh trong game (tick 0)
+# 12:00 thực = trưa, mặt trời đứng đỉnh (tick 6000)
+# 18:00 thực = hoàng hôn (tick 12000)
+# 00:00 thực = nửa đêm (tick 18000)
+sync-time: true
+
+# Khoảng cách đồng bộ (tick). 20 = 1 giây.
+# Giảm xuống 1 nếu muốn mượt nhất (nhưng tốn CPU hơn chút).
+sync-interval-ticks: 20
+
+# Đồng bộ thời tiết giữa tất cả các world
+sync-weather: true
+
+# World đại diện cho thời tiết. Các world khác sẽ copy theo world này.
+weather-master: world_blue
+
+# Cố gắng xóa WorldGuard weather-lock / time-lock trên __global__
+bypass-worldguard: true
+
+# Tên các buổi trong ngày (placeholder %nubweather_period%)
+periods:
+  morning: "Sáng"
+  noon: "Trưa"
+  afternoon: "Chiều"
+  night: "Tối"
+
+messages:
+  prefix: "&6[NubWeather] &r"
+  reload: "&aConfig reloaded."
+  sync: "&aĐã đồng bộ ngay lập tức."
+  no-perm: "&cBạn không có quyền."

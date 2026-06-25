@@ -1,0 +1,21 @@
+name: NubWeather
+version: ${version}
+main: vanhauluonsuy.nubWeather.NubWeather
+api-version: '1.21'
+prefix: NubWeather
+authors: [ vanhauluonsuy ]
+description: NubAPI
+website: https://github.com/vanhauluonsuy
+
+softdepend: [WorldGuard, PlaceholderAPI]
+
+commands:
+  nubweather:
+    description: NubWeather admin commands
+    usage: /nubweather reload|sync|time
+    aliases: [nw, weatheradmin]
+
+permissions:
+  nubweather.admin:
+    default: op
+    description: Allow reload/sync NubWeather
