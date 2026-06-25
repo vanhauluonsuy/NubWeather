@@ -58,6 +58,33 @@ Thời gian trong game chạy theo múi giờ bạn cài đặt:
 - Tùy chỉnh tên các buổi trong config
 - Tích hợp dễ dàng với các plugin khác
 
+## 🧩 PlaceholderAPI
+
+Nếu bạn cài [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/), bạn có thể sử dụng các placeholder sau:
+
+| Placeholder | Hiển thị | Mô tả | Ví dụ |
+|-------------|----------|-------|-------|
+| `%nubweather_time%` | `5h:07p` | Giờ và phút hiện tại (rút gọn) | `5h:07p` |
+| `%nubweather_time_full%` | `05:07:53` | Giờ:phút:giây hiện tại (đầy đủ) | `05:07:53` |
+| `%nubweather_tick%` | `6000` | Số tick trong game hiện tại | `6000` |
+| `%nubweather_period%` | `Sáng` | Tên buổi trong ngày (tùy chỉnh trong config) | `Sáng` |
+
+### 📝 Ví dụ sử dụng
+
+**Trong config của plugin khác:**
+```yaml
+# Hiển thị thời gian thực
+message: "⏰ Thời gian hiện tại: %nubweather_time%"
+# Output: "⏰ Thời gian hiện tại: 5h:07p"
+
+# Hiển thị thời gian đầy đủ
+message: "🕐 %nubweather_time_full% - Chào buổi %nubweather_period%!"
+# Output: "🕐 05:07:53 - Chào buổi Sáng!"
+
+# Hiển thị tick game
+message: "🎮 Game tick: %nubweather_tick%"
+# Output: "🎮 Game tick: 6000"
+```
 ---
 
 ## 📥 Tải xuống
