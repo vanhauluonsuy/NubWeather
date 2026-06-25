@@ -27,6 +27,7 @@
 - 🎨 **Nhẹ nhàng & tối ưu** - Không ảnh hưởng đến hiệu suất server
 - 🔧 **Dễ cấu hình** - Chỉnh sửa đơn giản qua file config
 - 🛡️ **Tương thích WorldGuard** - Tự động vô hiệu hóa khóa thời gian/thời tiết
+- 🧩 **Hỗ trợ PlaceholderAPI** - Tích hợp dễ dàng với các plugin khác
 
 ---
 
@@ -53,8 +54,9 @@ Thời gian trong game chạy theo múi giờ bạn cài đặt:
 - Có thể bật/tắt tùy chọn
 
 ### 🧩 PlaceholderAPI
-- Hỗ trợ placeholder `%nubweather_period%` để hiển thị tên buổi trong ngày
+- Hỗ trợ nhiều placeholder để hiển thị thời gian và thông tin
 - Tùy chỉnh tên các buổi trong config
+- Tích hợp dễ dàng với các plugin khác
 
 ---
 
