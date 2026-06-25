@@ -91,8 +91,8 @@ message: "🎮 Game tick: %nubweather_tick%"
 
 | Phiên bản | Minecraft | Tải về |
 |-----------|-----------|--------|
-| **v1.0.0** | 1.20.x - 1.21.x | [Download .jar](https://github.com/your-username/NubWeather/releases/tag/v1.0.0) |
-| **Latest Build** | 1.20.x - 1.21.x | [Download .jar](https://github.com/your-username/NubWeather/releases/latest) |
+| **v1.0.0** | 1.20.x - 1.21.x | [Download .jar](https://github.com/vanhauluonsuy/NubWeather/releases) |
+| **Latest Build** | 1.20.x - 1.21.x | [Download .jar](https://github.com/vanhauluonsuy/NubWeather/releases) |
 
 > **Yêu cầu**: Java 17+, Paper/Purpur 1.20+
 
